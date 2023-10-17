@@ -1,13 +1,12 @@
 {
-    "name": "barebones/installer",
-    "description": "Barebones installer",
-    "keywords": ["wordpress","blank theme","barebones"],
-    "homepage": "https://benchmark.co.uk",
+    "name": "daniloproject/installer",
+    "description": "Danilo Project installer",
+    "keywords": ["wordpress","blank theme"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Benchmark",
-            "email": "hello@benchmark.co.uk"
+            "name": "Danilo Simonatto",
+            "email": "danilosimonatto@icloud.com"
         }
     ],
     "minimum-stability": "dev",

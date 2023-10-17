@@ -1,4 +1,4 @@
-# WordPress and Barebones automated installer
+# WordPress automated installer
 Basic command-line tool to install the latest version of WordPress and [Barebones](https://github.com/benchmarkstudios/barebones) boilerplate theme.
 
 ### Tasks

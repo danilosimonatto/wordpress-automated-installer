@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-function barebones() {
+function newProject() {
 
     set -e
 
@@ -7,7 +7,7 @@ function barebones() {
     project=$1
 
     if [[ -z "$project" ]]; then
-        echo "Please provide a project name, for example 'barebones newsite'" 1>&2
+        echo "Please provide a project name, for example 'danilo newsite'" 1>&2
         exit 1
     fi
 
@@ -68,11 +68,11 @@ wp-content/themes/*/node_modules' > .gitignore
     rm -rf twentynineteen
     rm -rf twentytwenty
 
-    echo "Cloning the barebones theme..." 1>&2
+    echo "Cloning the theme..." 1>&2
 
     ## 6.2. Clone barebones
     git clone https://github.com/benchmarkstudios/barebones
-    mv barebones $project
+    mv newProject $project
 
     ## 6.3. Install barebones submodules
     cd $project
@@ -94,4 +94,4 @@ wp-content/themes/*/node_modules' > .gitignore
 
 }
 
-barebones $1
+newProject $1
