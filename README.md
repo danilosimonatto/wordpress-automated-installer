@@ -1,5 +1,5 @@
-# WordPress automated installer
-Basic command-line tool to install the latest version of WordPress and [daniloproject](https://github.com/benchmarkstudios/barebones) boilerplate theme.
+# WordPress and daniloproject automated installer
+Basic command-line tool to install the latest version of WordPress and [daniloproject](https://github.com/danilosimonatto/daniloproject) boilerplate theme.
 
 ### Tasks
 

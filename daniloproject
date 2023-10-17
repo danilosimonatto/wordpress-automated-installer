@@ -72,7 +72,7 @@ wp-content/themes/*/node_modules' > .gitignore
     echo "Cloning the theme..." 1>&2
 
     ## 6.2. Clone barebones
-    git clone https://github.com/benchmarkstudios/barebones
+    git clone https://github.com/danilosimonatto/daniloproject
     mv daniloproject $project
 
     ## 6.3. Install barebones submodules
