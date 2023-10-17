@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-function newProject() {
+function daniloproject() {
 
     set -e
 
@@ -7,7 +7,7 @@ function newProject() {
     project=$1
 
     if [[ -z "$project" ]]; then
-        echo "Please provide a project name, for example 'danilo newsite'" 1>&2
+        echo "Please provide a project name, for example 'daniloproject newsite'" 1>&2
         exit 1
     fi
 
@@ -51,6 +51,7 @@ wp-content/themes/*/node_modules' > .gitignore
     echo "Downloading useful plugins..." 1>&2
 
     ## 5.2. Download useful plugins
+    git clone https://github.com/wp-premium/advanced-custom-fields-pro.git
     wget https://downloads.wordpress.org/plugin/regenerate-thumbnails.zip
     wget https://downloads.wordpress.org/plugin/simple-history.zip
     wget https://downloads.wordpress.org/plugin/wordpress-seo.zip
@@ -72,7 +73,7 @@ wp-content/themes/*/node_modules' > .gitignore
 
     ## 6.2. Clone barebones
     git clone https://github.com/benchmarkstudios/barebones
-    mv newProject $project
+    mv daniloproject $project
 
     ## 6.3. Install barebones submodules
     cd $project
@@ -94,4 +95,4 @@ wp-content/themes/*/node_modules' > .gitignore
 
 }
 
-newProject $1
+daniloproject $1
