@@ -56,6 +56,7 @@ wp-content/themes/*/node_modules' > .gitignore
     wget https://downloads.wordpress.org/plugin/simple-history.zip
     wget https://downloads.wordpress.org/plugin/wordpress-seo.zip
     wget https://downloads.wordpress.org/plugin/classic-editor.zip
+    wget https://downloads.wordpress.org/plugin/show-current-template.zip
 
     tar -xvzf regenerate-thumbnails.zip
     tar -xvzf simple-history.zip
